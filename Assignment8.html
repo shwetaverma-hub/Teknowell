@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initail scale="1.0">
+    <title>Assignment 8</title>
+    <head>
+        <style>
+            body{ 
+                 margin:0px;
+                 padding:5px;
+        
+            }
+            hr{
+                border: 2px solid black
+            }
+            .upper{
+                height: 60px;
+                align-items: center;
+                justify-content: center;
+                font-size: large;
+                display: flex;
+                flex-direction: row;
+            }
+            .button{
+                height: 50px;
+                padding: 15px;
+                margin: 15px;
+                border: 2px solid black;
+            }
+            .navbar{
+                height: 60px;
+                width: 2700px;
+                padding: 15px;
+                margin: 30px;
+                background-color: black;
+                color: aliceblue;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: large;
+            }
+             .logo{
+            height: 100%;
+            display:flex;
+            flex-direction:row;
+            align-items: center;
+        }
+         .logo-img{
+            height:90%;
+            margin-left:40px;
+            border-radius: 30%;
+
+        }
+        .menu{
+            width: 900px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+         .img{
+            background-size: cover;
+            background-position: center;
+            height:900px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            opacity: 90%;
+            
+        }
+        .img-img{
+              background-color: black;
+            color:white;
+            opacity: 50%;
+            text-align: center;
+            padding:30px;
+            width: 600px;
+        }   
+        </style>
+    </head>
+    <body>
+        <hr>
+        <div class="upper">
+            <p> Do You Want to Learn Marketing or Coding?</p>
+            <button class="button">Yes,I want to Learn</button>
+        </div>
+        <div>
+            <div class="navbar">
+                <div class="logo">
+                    <img class="logo-img" src="data:image/jpeg;base64,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" alt="logp">
+                    <p style="margin-left: 25PX;"> MilesSebesta.com</p>
+                </div>
+                <div class="menu">
+                    <p>Teaching/Speaking</p>
+                    <p>Web Design</p>
+                    <p>Animation</p>
+                    <p>Blog</p>
+                    <p>Contact</p>
+                </div>
+            </div>
+        <div class="img">
+            <div class="img-img">
+                <h1>Web Design Visilia</h1>
+                <p>Locally grown Visilia Code</p>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

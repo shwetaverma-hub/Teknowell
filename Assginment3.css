@@ -1,0 +1,43 @@
+
+full-image{
+    background-image: url(https://www.shutterstock.com/image-photo/clear-blue-sky-few-clouds-600nw-2488278533.jpg);
+    background-size: cover;
+    dispaly:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+    image-size:cover;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+
+}
+form{
+    background-color: rgb(203, 192, 192);
+    opacity:80px;
+    border: 2px solid back;
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 250px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+h1{
+    color:white;
+    align-items: center;
+}
+label{
+     font-style: italic;
+    color: white;
+}
+ .btn{
+    background-color: orange;
+    height: 30px;
+    width: 150px;
+    padding-left: 50px;
+    padding-right:50px;
+    margin-bottom: 40px;
+}
